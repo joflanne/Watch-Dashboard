@@ -48,3 +48,4 @@ st.subheader("🔗 Quick Access Links")
 for _, row in filtered_data.iterrows():
     st.markdown(f"[{row['Brand']} {row['Model']}]({row['Listing URL']}) - ${row['Price']} → ${row['Predicted Resale']} ({row['ROI (%)']:.2f}% ROI)")
 ntent from canvas here>
+# Forced redeploy - fixing cache
